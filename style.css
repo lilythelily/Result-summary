@@ -234,6 +234,38 @@ h2 {
     box-shadow: 2px 2px 80px hsl(221, 100%, 96%);
 }
 
+@media only screen and (max-width: 600px) {
+    .purple {background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+        display: flex;
+        flex-direction: column;
+        min-width: 375px;
+        border-radius: 0 0 20px 20px;
+        flex-wrap: wrap;
+    }
+    }
+
+@media only screen and (max-width: 600px) {
+    .card {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            gap: 12px;
+            min-width: 375px;
+            padding: 34px 24px 40px 24px;
+        }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+} 
+
 .attribution {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 10px;
